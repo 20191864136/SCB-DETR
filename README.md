@@ -13,3 +13,12 @@ Conventional student behavior detection models often struggle with occlusion, bl
 ## SCB-DETR Framework
 
 <img src="overall_structure.png" alt="SCB-DETR Model Structure" width="600"/>
+
+## Implementation Notes
+
+Our code is implemented based on the MMDetection framework.
+
+The specific configuration files for SCB-DETR are located in:**/mmdetection-main/mmdetection-main/configs/SCB-DETR**
+
+For dataset preparation, model training, and evaluation, please refer to the standard MMDetection configuration and usage style. You may follow the official MMDetection documentation for details on how to define datasets, modify model backbones, and run training/testing pipelines.
+
